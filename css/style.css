@@ -81,6 +81,7 @@ a:hover{
     margin: auto;
     clear: left;
     color: #11999E;
+    font-family: sans-serif;
 
 }
 
@@ -91,9 +92,18 @@ a:hover{
 
 }
 .skill2-description{
-clear: right;
-text-align-last: auto;
+  margin: auto;
+  clear: left;
+  color: #11999E;
+  font-family: sans-serif;
+}
+.Motivation-quotes{
+margin: auto;
+clear: left;
 color: #11999E;
+font-style:italic;
+font-family:  sans-serif;
+
 
 }
 .mountain{
@@ -136,14 +146,15 @@ top:40px;
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Montserrat Alternates', sans-serif;
+  font-family: Montserrat Alternates, sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
+.btn:hover{
+
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -151,4 +162,5 @@ top:40px;
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+
 }
